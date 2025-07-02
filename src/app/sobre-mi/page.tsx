@@ -6,14 +6,14 @@ export default function SobreMiPage() {
       <h1 className="text-3xl font-bold text-center">Sobre mí</h1>
 
       <div className="flex flex-col md:flex-row items-center gap-8">
-        <div className="w-60 h-40 relative rounded-full overflow-hidden border shadow-md">
-          <Image
-            src="/images/pablo.jpg"
-            alt="Pablo Macia"
-            fill
-            className="object-cover"
-          />
-        </div>
+        <div className="w-40 md:w-48 aspect-square relative rounded-full overflow-hidden border shadow-md shrink-0">
+  <Image
+    src="/images/pablo.jpg"
+    alt="Pablo Macia"
+    fill
+    className="object-cover"
+  />
+</div>
 
         <div className="text-gray-700 text-base space-y-4">
           <p>
@@ -46,7 +46,14 @@ export default function SobreMiPage() {
               LinkedIn →
             </a>
             <a
-              href="/cv.pdf"
+              href="https://github.com/pablormacia"
+              target="_blank"
+              className="text-blue-600 hover:underline"
+            >
+              GitHub →
+            </a>
+            <a
+              href="/CV_Pablo_Macia.pdf"
               target="_blank"
               className="text-blue-600 hover:underline"
             >
