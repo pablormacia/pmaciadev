@@ -21,7 +21,7 @@ const projects: Project[] = [
     description: "Página web tipo catálogo para la muestra de silals de fabricación local.",
     imageUrl: "/images/milsillas.jpg",
     tech: ["Next.js", "Json", "Tailwind"],
-    link: "https://milesihogar.vercel.app",
+    link: "https://milsillas.com.ar",
   },
   {
     title: "Dividamos la cuenta",
