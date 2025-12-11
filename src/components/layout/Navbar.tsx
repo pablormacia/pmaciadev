@@ -1,0 +1,15 @@
+export default function Navbar() {
+  return (
+    <nav className="flex justify-between items-center py-4 px-6 max-w-6xl mx-auto">
+      <a href="/" className="font-semibold text-lg tracking-tight">
+        Pablo Macia
+      </a>
+
+      <div className="flex gap-6 text-sm text-gray-700">
+        <a href="/" className="hover:text-blue-600">Inicio</a>
+        <a href="/sobre-mi" className="hover:text-blue-600">Sobre mí</a>
+        <a href="/contacto" className="hover:text-blue-600">Contacto</a>
+      </div>
+    </nav>
+  );
+}

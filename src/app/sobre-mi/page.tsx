@@ -7,13 +7,13 @@ export default function SobreMiPage() {
 
       <div className="flex flex-col md:flex-row items-center gap-8">
         <div className="w-40 md:w-48 aspect-square relative rounded-full overflow-hidden border shadow-md shrink-0">
-  <Image
-    src="/images/pablo.jpg"
-    alt="Pablo Macia"
-    fill
-    className="object-cover"
-  />
-</div>
+          <Image
+            src="/images/pablo.jpg"
+            alt="Pablo Macia"
+            fill
+            className="object-cover"
+          />
+        </div>
 
         <div className="text-gray-700 text-base space-y-4">
           <p>
